@@ -7,6 +7,10 @@ Original file is located at
     https://colab.research.google.com/drive/1pV1OOfSIpvS4kN31RWDsDmyM01KBpAj5
 """
 
+#Camilo Villa Tamayo
+# Miguel Angel Sarmiento
+# Marlon Perez
+# PUNTO 1
 def gcdEuclidiana(p,q):
     
     if q == 0:
@@ -19,6 +23,7 @@ q = int(input("Ingrese el segundo número: "))
  
 print("El MCD entre ", p, " y ", q, " es ", gcdEuclidiana(p,q))
 
+# PUNTO 2
 def Suma_grupo1(nums, target):
   return Suma_grupo(0, nums, target)
 
