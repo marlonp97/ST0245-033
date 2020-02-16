@@ -23,6 +23,6 @@ def formas(n):
   if (n <= 2):
     return n
   else:
-    return formas(n - 1) + formas (n - 2)
+    return formas(n-1) + formas (n-2)
 
 formas(4)
